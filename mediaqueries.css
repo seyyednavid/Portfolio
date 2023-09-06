@@ -34,7 +34,7 @@
   }
 
   #profile {
-    height: 50vh;
+    height: 80vh;
   }
 
   .arrow {
@@ -70,7 +70,7 @@
   }
 
   #profile {
-    height: 50vh;
+    height: 80vh;
     margin-bottom: 0;
   }
 
@@ -131,6 +131,6 @@
   }
 
   .text-container {
-    text-align: justify;
+    /* text-align: justify; */
   }
 }
