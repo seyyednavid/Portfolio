@@ -8,9 +8,25 @@
     flex-wrap: wrap;
   }
 
+  .section__text__p1 {
+    margin-top: -4rem;
+  }
+
   #contact,
   #projects {
     height: fit-content;
+  }
+
+  .about-containers {
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .details-container-experience {
+    padding: 1rem;
   }
 }
 
@@ -56,13 +72,22 @@
     height: 350px;
     margin: 0 auto 2rem;
   }
-  .about-pic{
+
+  .section__text__p1 {
+    margin-top: 2rem;
+  }
+
+  .about-pic {
     margin: 0 auto;
   }
 
   .about-containers {
     margin-top: 0;
     flex-wrap: wrap;
+  }
+
+  .article-container {
+    gap: 0.5rem;
   }
 }
 
@@ -78,9 +103,9 @@
     margin-bottom: 0;
   }
 
-  article {
+  /* article {
     font-size: 1rem;
-  }
+  } */
 
   footer nav {
     height: fit-content;
@@ -137,4 +162,9 @@
   .text-container {
     text-align: left;
   }
+
+  .about-containers {
+    flex-direction: column;
+  }
+
 }

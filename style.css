@@ -57,6 +57,7 @@ a:hover {
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
+
 .nav-links a {
   transition: all 0.5s;
   text-decoration: none;
@@ -73,7 +74,7 @@ a:hover {
     8px 8px 0px hsl(0, 0%, 60%),
     10px 10px 0px hsl(0, 0%, 50%),
     12px 12px 0px hsl(0, 0%, 40%);
-    /* 14px 14px 0px hsl(0, 0%, 30%),
+  /* 14px 14px 0px hsl(0, 0%, 30%),
     16px 16px 0px hsl(0, 0%, 20%),
     18px 18px 0px hsl(0, 0%, 10%); */
 }
@@ -83,6 +84,7 @@ a:hover {
   color: #fff;
   box-shadow: none;
 }
+
 .logo {
   font-size: 2rem;
   font-weight: bold;
@@ -256,6 +258,7 @@ section {
   width: 8rem;
   border-radius: 2rem;
 }
+
 .btn-color-1 {
   position: relative;
   margin: auto;
@@ -347,15 +350,14 @@ section {
   position: relative;
 }
 
+.about-containers,
+.about-details-container {
+  display: flex;
+}
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
-  display: flex;
 }
 
 .about-containers {
@@ -363,6 +365,7 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about-pic {
@@ -378,6 +381,16 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.details-container-project {
+  padding: 1.5rem;
+  flex: 0;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -412,7 +425,7 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 
 .article-container {
@@ -420,7 +433,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1rem;
   justify-content: space-around;
 }
 
