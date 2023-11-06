@@ -474,6 +474,15 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+.project-des p {
+  margin-top: 0.5rem;
+  font-size: 10px;
+  text-align: left;
+}
+.project-des p span {
+  font-size: 12px;
+ font-weight: bold;
+}
 
 /* CONTACT */
 
