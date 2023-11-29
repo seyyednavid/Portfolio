@@ -438,11 +438,16 @@ section {
   justify-content: flex-start;
 }
 
+
 article {
   display: flex;
   width: 10rem;
   justify-content: start;
-  gap: 0.5rem;
+  gap: 0.7rem;
+}
+
+article img {
+  margin-right: -0.25rem;
 }
 
 article .icon {
