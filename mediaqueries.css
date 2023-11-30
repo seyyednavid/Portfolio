@@ -93,6 +93,10 @@
 
 @media screen and (max-width: 600px) {
 
+  #about {
+    margin-top: -3rem;
+  }
+
   #contact,
   footer {
     height: 40vh;
@@ -167,4 +171,11 @@
     flex-direction: column;
   }
 
+}
+
+@media screen and (max-width: 450px) {
+
+  #about {
+    margin-top: -5rem;
+  }
 }
