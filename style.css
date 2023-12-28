@@ -68,12 +68,9 @@ a:hover {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 2px;
-  box-shadow: 1px 1px 0px hsl(0, 0%, 90%),
-    4px 4px 0px hsl(0, 0%, 80%),
-    6px 6px 0px hsl(0, 0%, 70%),
-    8px 8px 0px hsl(0, 0%, 60%),
-    10px 10px 0px hsl(0, 0%, 50%),
-    12px 12px 0px hsl(0, 0%, 40%);
+  box-shadow: 1px 1px 0px hsl(0, 0%, 90%), 4px 4px 0px hsl(0, 0%, 80%),
+    6px 6px 0px hsl(0, 0%, 70%), 8px 8px 0px hsl(0, 0%, 60%),
+    10px 10px 0px hsl(0, 0%, 50%), 12px 12px 0px hsl(0, 0%, 40%);
   /* 14px 14px 0px hsl(0, 0%, 30%),
     16px 16px 0px hsl(0, 0%, 20%),
     18px 18px 0px hsl(0, 0%, 10%); */
@@ -183,7 +180,6 @@ section {
   box-sizing: border-box;
   min-height: fit-content;
 }
-
 
 .section-container {
   display: flex;
@@ -316,16 +312,13 @@ section {
   transform: scale(0.95);
 }
 
-
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-
 .btn-color-2:hover {
   cursor: pointer;
 }
-
 
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
@@ -438,7 +431,6 @@ section {
   justify-content: flex-start;
 }
 
-
 article {
   display: flex;
   width: 10rem;
@@ -465,6 +457,15 @@ article .icon {
   background: rgb(250, 250, 250);
 }
 
+#projects .article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
 .project-img {
   border-radius: 2rem;
   width: 90%;
@@ -487,7 +488,7 @@ article .icon {
 }
 .project-des p span {
   font-size: 12px;
- font-weight: bold;
+  font-weight: bold;
 }
 
 /* CONTACT */
