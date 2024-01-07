@@ -39,14 +39,21 @@
     display: flex;
   }
 
-  #experience,
   .experience-details-container {
     margin-top: 2rem;
+  }
+  #experience {
+    margin-top: 20rem;
   }
 
   #profile,
   .section-container {
     display: block;
+  }
+  .my-des {
+    width: 70%;
+    margin: auto;
+    text-align: left !important;
   }
 
   #profile {
@@ -92,16 +99,18 @@
 }
 
 @media screen and (max-width: 600px) {
-
   #about {
     margin-top: -3rem;
+  }
+  #experience {
+    margin-top: 10rem;
   }
 
   #contact,
   footer {
     height: 40vh;
   }
-  
+
   .menu-links a {
     font-size: 1rem;
   }
@@ -109,6 +118,11 @@
   #profile {
     height: 80vh;
     margin-bottom: 0;
+  }
+  .my-des {
+    width: 90%;
+    margin: auto;
+    text-align: left !important;
   }
 
   /* article {
@@ -174,11 +188,13 @@
   .about-containers {
     flex-direction: column;
   }
+  .nav-links li {
+    margin-top: 2rem;
+  }
 
 }
 
 @media screen and (max-width: 450px) {
-
   #about {
     margin-top: -5rem;
   }

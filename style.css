@@ -74,7 +74,7 @@ a {
   /* 14px 14px 0px hsl(0, 0%, 30%),
     16px 16px 0px hsl(0, 0%, 20%),
     18px 18px 0px hsl(0, 0%, 10%); */
-/* } */ 
+/* } */
 /* 
 .nav-links a:hover {
   background-color: hsl(0, 0%, 50%);
@@ -141,7 +141,6 @@ a {
   /* text-decoration: none; */
   /* transition: all 0.3 ease-in-out; */
   /* border: #80bfff !important; */
-  
 }
 
 .menu-links li {
@@ -495,6 +494,7 @@ article .icon {
 .project-des p span {
   font-size: 16px;
   font-weight: bold;
+  color: black;
 }
 
 /* CONTACT */
