@@ -101,6 +101,10 @@
   footer {
     height: 40vh;
   }
+  
+  .menu-links a {
+    font-size: 1rem;
+  }
 
   #profile {
     height: 80vh;
