@@ -46,7 +46,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: #191970;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -123,7 +123,7 @@ a {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: black(0, 0, 0, 0);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -484,7 +484,7 @@ article .icon {
 }
 
 .project-btn {
-  color: black;
+  color: #191970;
   border-color: rgb(163, 163, 163);
 }
 .project-des p {
